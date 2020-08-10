@@ -18,6 +18,7 @@ def show_daily_graph():
     data = ks.get_daily_stats()
     pl.show_daily_graph(data)
 
+
 def save_daily_graph():
     data = ks.get_daily_stats()
     path = gui.get_save_file_path()

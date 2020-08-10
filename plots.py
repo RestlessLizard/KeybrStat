@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 
 import keybr_stat as ks
 
+
 def show_daily_graph(data : dict):
     df = pd.DataFrame(data)
 
